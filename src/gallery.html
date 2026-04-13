@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Gallery</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <header class="page-header">
+        <nav class="navbar">
+            <div class="logo">EventHub</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destination.html">About</a></li>
+                <li><a href="packages.html">Events</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="gallery-header">
+            <h1>Event Gallery</h1>
+            <p>Memories from our past events</p>
+        </section>
+
+        <section class="gallery-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="cultural">Cultural</button>
+            <button class="filter-btn" data-filter="academic">Academic</button>
+            <button class="filter-btn" data-filter="sports">Sports</button>
+            <button class="filter-btn" data-filter="social">Social</button>
+        </section>
+
+        <section class="gallery-grid">
+            <div class="gallery-item" data-category="cultural">
+                <div class="image-placeholder cultural">Spring Festival</div>
+                <div class="overlay">
+                    <h3>Spring Festival 2025</h3>
+                    <p>Cultural Celebration</p>
+                </div>
+            </div>
+            
+            <div class="gallery-item" data-category="academic">
+                <div class="image-placeholder academic">Tech Symposium</div>
+                <div class="overlay">
+                    <h3>Tech Symposium</h3>
+                    <p>Academic Conference</p>
+                </div>
+            </div>
+            
+            <div class="gallery-item" data-category="sports">
+                <div class="image-placeholder sports">Basketball Finals</div>
+                <div class="overlay">
+                    <h3>Championship Game</h3>
+                    <p>Sports Event</p>
+                </div>
+            </div>
+            
+            <div class="gallery-item" data-category="social">
+                <div class="image-placeholder social">Welcome Week</div>
+                <div class="overlay">
+                    <h3>Freshman Orientation</h3>
+                    <p>Social Gathering</p>
+                </div>
+            </div>
+            
+            <div class="gallery-item" data-category="cultural">
+                <div class="image-placeholder cultural">Art Exhibition</div>
+                <div class="overlay">
+                    <h3>Student Art Show</h3>
+                    <p>Cultural Event</p>
+                </div>
+            </div>
+            
+            <div class="gallery-item" data-category="academic">
+                <div class="image-placeholder academic">Research Day</div>
+                <div class="overlay">
+                    <h3>Research Presentation</h3>
+                    <p>Academic Showcase</p>
+                </div>
+            </div>
+            
+            <div class="gallery-item" data-category="sports">
+                <div class="image-placeholder sports">Marathon</div>
+                <div class="overlay">
+                    <h3>Campus Marathon</h3>
+                    <p>Fitness Event</p>
+                </div>
+            </div>
+            
+            <div class="gallery-item" data-category="social">
+                <div class="image-placeholder social">Winter Ball</div>
+                <div class="overlay">
+                    <h3>Winter Formal</h3>
+                    <p>Social Dance</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 University Events. All rights reserved.</p>
+    </footer>
+</body>
+</html>
