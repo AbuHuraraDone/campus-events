@@ -1,0 +1,15 @@
+FROM node:18
+
+WORKDIR /app
+
+COPY package*.json ./
+RUN npm install
+
+COPY . .
+
+RUN npm install -g parcel
+RUN parcel build src/index.html
+
+EXPOSE 1234
+
+CMD ["npx", "parcel", "src/index.html"]
